@@ -1,5 +1,8 @@
-def greeting(name: str) -> str:
-    return f"Hello,{name}!"
+from app.utils import  greeting
+
+
+# def greeting(name: str) -> str:
+#     return f"Hello,{name}!"
 
 
 # 如果当前这个模块是被“直接运行”的，就执行下面代码。
